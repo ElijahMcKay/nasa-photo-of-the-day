@@ -4,6 +4,10 @@ import { directive } from "@babel/types";
 
 function Data() {
     const [data, setData] = useState([]); 
+    const [url, setUrl] = useState([]); 
+    const [explanation, setExplanation] = useState([]); 
+    const [date, setDate] = useState([]); 
+    const [copyright, setCopyright] = useState([]); 
 
     useEffect(() => {
         axios
