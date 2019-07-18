@@ -1,12 +1,17 @@
 import React from "react"; 
-import Data from "../data"; 
+import styled from "styled-components"; 
 
 function Title(props) {
     
+    const StyleH1 = styled.h1`
+    color: #ffffff; 
+    font-size: 2.4rem; 
+    font-weight: 400; 
+    `
     return (
-        <div>
+        <StyleH1>
             {props.title}
-        </div>
+        </StyleH1>
     )
 };
 

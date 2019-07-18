@@ -3,9 +3,9 @@ import React from "react";
 function Explanation(props) {
     
     return (
-        <div>
+        <p>
             {props.exp}
-        </div>
+        </p>
     )
 }
 

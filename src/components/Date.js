@@ -5,9 +5,9 @@ import Data from "../data";
 function Date(props) {
 
     return (
-        <div>
+        <p>
             {props.date}
-        </div>
+        </p>
     )
 }
 

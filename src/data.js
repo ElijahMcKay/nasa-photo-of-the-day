@@ -13,7 +13,7 @@ function Data() {
 
     useEffect(() => {
         axios
-        .get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2019-07-15')
+        .get('https://api.nasa.gov/planetary/apod?api_key=lScG6MrWnDarwPxYp1wdk8MlQgMs1MBqW59Sqfzp&date=2019-07-14')
         .then(response => {
             console.log(`nasa:api: ${response.data}`)
             setData(response.data); 
@@ -26,10 +26,10 @@ function Data() {
 
         return (
             <div>
-                <Title title={data.title}/>
                 <Image imageSrc={data.url}/>
-                <Explanation exp={data.explanation}/>
+                <Title title={data.title}/>
                 <Date date={data.date}/>
+                <Explanation exp={data.explanation}/>
                 <Copyright copyright={data.copyright}/>
             </div>
         )
