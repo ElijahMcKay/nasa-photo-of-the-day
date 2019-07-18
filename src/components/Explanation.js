@@ -1,2 +1,12 @@
 import React from "react"; 
-import Data from "../data"; 
+
+function Explanation(props) {
+    
+    return (
+        <div>
+            {props.exp}
+        </div>
+    )
+}
+
+export default Explanation; 

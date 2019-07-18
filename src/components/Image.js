@@ -1,12 +1,12 @@
 import React from "react"; 
 import Data from "../data"; 
 
-function newImage(props) {
+function setImage(props) {
 
     return (
-        <img src={props.url} alt="nasa img"></img>
+        <img src={props.imageSrc} alt="nasa img"></img>
     )
 }
 
 
-export default newImage; 
+export default setImage; 
