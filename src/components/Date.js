@@ -1,13 +1,17 @@
 import React from "react"; 
-import Data from "../data"; 
+import styled from "styled-components"; 
 
 
 function Date(props) {
 
+    const StyleP = styled.p`
+    color: #ffffff; 
+    font-size: 1rem; 
+    `
     return (
-        <p>
+        <StyleP>
             {props.date}
-        </p>
+        </StyleP>
     )
 }
 

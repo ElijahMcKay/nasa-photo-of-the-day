@@ -5,7 +5,7 @@ function Title(props) {
     
     const StyleH1 = styled.h1`
     color: #ffffff; 
-    font-size: 2.4rem; 
+    font-size: 3rem; 
     font-weight: 400; 
     `
     return (
